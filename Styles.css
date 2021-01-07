@@ -1,0 +1,44 @@
+html {
+    background:url('img.jpg');
+    background-size: cover;
+        }
+body {
+    margin:0;
+        }
+menu {
+    background-image:url('universe.jpg');
+    color: white;
+    margin: 0;
+    padding: 30px;
+    font-size: 40px;
+    text-align:center;  
+        }
+span {
+    cursor: pointer;
+    margin-left: 60px;
+        }
+img {
+    position: relative;
+    top: 10px;
+    width: 1000px;
+       }
+#imagemenu > img {
+    border-radius:100%;
+    width:60px;
+    position:absolute;
+    top:20px;
+       }
+#menu {
+    font-size: 40px;
+    position: absolute;
+    color: green;
+    top: 30px;
+    left: 60px;
+       }
+h1 {
+    font-size:100px;
+    font-family: italic;
+    color:blue;
+    position:relative;
+    top: 50px;
+      }
