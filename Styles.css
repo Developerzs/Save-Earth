@@ -5,33 +5,43 @@ html {
 body {
   margin: 0;
 }
-p {
-  background-color: blue;
-  width: 200px;
-  position: absolute;
-  padding: 40px;
-  z-index: 9;
+.upper_top_head {
+  display: grid;
+  grid-template-columns: 2fr 5fr 0.5fr;
+  background-image:url("Universe.jpg");
+  background-size: cover;
 }
-#save_earth .back {
-  background-image:url("universe.jpg");
-  padding: 35px;
-  padding-left: 20px;
+.nav {
+  padding: 30px;
+  font-size: 30px;
 }
-#save_earth {
+.left {
+  background-color: white;
+}
+.back {
+  display : grid;
+  grid-template-columns: 1fr 1fr;
+}
+.left > span {
   position: relative;
+  top: 20px;
 }
-#save_earth .imageearth > img {
+.middle {
+  position:relative;
+  left: 80px; 
+}
+.middle > span {
+  position:relative;
+  top: -15px;
+  color: #02ba4c;
+}
+.middle > img {
   border-radius: 100%;
-  width: 90px;
-  position: absolute;
-  top: 20px;
+  width: 60px;
 }
-#save_earth .menu {
-  font-size: 40px;
-  color: green;
+.right {
   position: relative;
   top: 20px;
-  left: 100px;
 }
 a:link{
   text-decoration: none;
@@ -40,7 +50,7 @@ menu {
   position: relative;
   top: -30px;
   font-size: 30px;
-  word-spacing: 300px;
+  word-spacing: 200px;
   border: 10px solid green;
   border-top-style: none;
 }
