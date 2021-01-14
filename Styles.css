@@ -8,15 +8,21 @@ body {
 .upper_top_head {
   display: grid;
   grid-template-columns: 2fr 5fr 0.5fr;
-  background-image:url("Universe.jpg");
-  background-size: cover;
+  background:linear-gradient(90deg,
+    rgba(255, 255, 255, 0)0%,
+    rgba(255, 255, 255, 0.4)25%,
+    rgba(255, 255, 255, 0.4)75%,
+    rgba(255, 255, 255, 0)100%);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.6),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+    
 }
 .nav {
   font-size: 30px;
 }
 .left {
   background-color: white;
-  border-radius: 30px;
+  border-radius: 0 30px 30px 0;
 }
 .back {
   display: grid;
@@ -47,12 +53,16 @@ body {
   position: relative;
   top: 20px;
 }
+.lower_top_head {
+  background-color: black;
+  color: white;
+  position: relative;
+  top: -30px;
+}
 a:link{
   text-decoration: none;
 }
 menu {
-  position: relative;
-  top: -30px;
   font-size: 30px;
   word-spacing: 200px;
   border: 10px solid green;
